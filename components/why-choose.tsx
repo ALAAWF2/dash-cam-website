@@ -5,33 +5,33 @@ import { useEffect, useRef, useState } from 'react'
 import { Check, X, Shield, FileText, Eye } from 'lucide-react'
 
 const comparisonData = [
-  { feature: '4K Ultra HD Recording', dashSham: true, others: false },
-  { feature: '170° Wide Angle View', dashSham: true, others: 'Limited' },
-  { feature: 'Advanced Night Vision', dashSham: true, others: 'Basic' },
-  { feature: 'Motion Detection', dashSham: true, others: false },
-  { feature: 'Loop Recording', dashSham: true, others: true },
-  { feature: '2 Year Warranty', dashSham: true, others: '6 months' },
-  { feature: 'Professional Support', dashSham: true, others: false },
-  { feature: '32GB SD Card Included', dashSham: true, others: false }
+  { feature: 'تسجيل 4K فائق الدقة', dashSham: true, others: false },
+  { feature: 'زاوية رؤية 170° عريضة', dashSham: true, others: 'محدودة' },
+  { feature: 'رؤية ليلية متقدمة', dashSham: true, others: 'أساسية' },
+  { feature: 'كشف الحركة', dashSham: true, others: false },
+  { feature: 'تسجيل حلقي', dashSham: true, others: true },
+  { feature: 'ضمان سنتين', dashSham: true, others: '6 أشهر' },
+  { feature: 'دعم احترافي', dashSham: true, others: false },
+  { feature: 'بطاقة 32 جيجا مرفقة', dashSham: true, others: false }
 ]
 
 const benefits = [
   {
     icon: Shield,
-    title: 'Ultimate Security',
-    description: 'Continuous monitoring and recording provides 24/7 protection for your vehicle, even when parked.',
+    title: 'أمان مطلق',
+    description: 'المراقبة والتسجيل المستمران يوفران حماية على مدار الساعة لمركبتك حتى أثناء الوقوف.',
     color: 'text-green-400'
   },
   {
     icon: FileText,
-    title: 'Accident Evidence',
-    description: 'High-quality video evidence protects you from false claims and ensures fair insurance settlements.',
+    title: 'دليل الحوادث',
+    description: 'لقطات فيديو عالية الجودة تحميك من الادعاءات الباطلة وتضمن تسوية التأمين بشكل عادل.',
     color: 'text-blue-400'
   },
   {
     icon: Eye,
-    title: 'Parking Surveillance',
-    description: 'Motion detection activates recording when your car is parked, catching vandalism and break-ins.',
+    title: 'مراقبة الوقوف',
+    description: 'كشف الحركة يفعّل التسجيل عند توقف السيارة لردع التخريب والسرقة.',
     color: 'text-purple-400'
   }
 ]
@@ -63,10 +63,10 @@ export default function WhyChoose() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Why Choose <span className="text-[#007BFF]">Dash-Sham</span>?
+            لماذا تختار <span className="text-[#007BFF]">داش شام</span>؟
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Don't settle for inferior quality. See how our premium dash cam outperforms the competition.
+            لا تقبل بالجودة المتدنية. اكتشف كيف تتفوق كاميرتنا الاحترافية على المنافسين.
           </p>
         </div>
 
@@ -122,7 +122,7 @@ export default function WhyChoose() {
         {/* Benefits Section */}
         <div className={`transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h3 className="text-3xl font-bold text-white text-center mb-12">
-            Three Critical Benefits You Can't Ignore
+            ثلاث فوائد أساسية لا يمكن تجاهلها
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

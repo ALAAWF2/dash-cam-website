@@ -6,36 +6,36 @@ import { ChevronDown, ChevronUp, HelpCircle } from 'lucide-react'
 
 const faqData = [
   {
-    question: 'How easy is the installation process?',
-    answer: 'Installation is incredibly simple and takes just 10-15 minutes. The dash cam comes with a detailed installation guide, mounting bracket, and all necessary cables. Simply attach the bracket to your windshield, connect the power cable to your car charger, and you\'re ready to go. No professional installation required.'
+    question: 'ما مدى سهولة عملية التركيب؟',
+    answer: 'التركيب سهل للغاية ولا يستغرق أكثر من 10-15 دقيقة. تأتي الكاميرا مع دليل تركيب مفصل وحامل وجميع الكابلات اللازمة. كل ما عليك تثبيت الحامل على الزجاج الأمامي وتوصيل الكابل بمنفذ الشحن وستكون جاهزاً دون الحاجة إلى فني.'
   },
   {
-    question: 'What storage capacity do I need?',
-    answer: 'The included 32GB SD card provides approximately 4-6 hours of 4K recording. When the card is full, loop recording automatically overwrites the oldest files. For extended recording, you can upgrade to a 64GB or 128GB card for up to 20+ hours of continuous recording.'
+    question: 'ما السعة التخزينية التي أحتاجها؟',
+    answer: 'بطاقة الذاكرة المرفقة بسعة 32 جيجا توفر حوالي 4-6 ساعات تصوير بدقة 4K. عند امتلاء البطاقة يتم استبدال الملفات الأقدم تلقائياً بالتسجيل الحلقي. ولتسجيل أطول يمكنك استخدام بطاقة 64 أو 128 جيجا لما يصل إلى 20 ساعة متواصلة.'
   },
   {
-    question: 'Does it work while the car is parked?',
-    answer: 'Yes! The motion detection feature automatically activates recording when movement is detected around your parked vehicle. This parking surveillance mode helps protect against vandalism, break-ins, and hit-and-run incidents. The dash cam can run on your car\'s battery or optional external power bank.'
+    question: 'هل تعمل الكاميرا أثناء إيقاف السيارة؟',
+    answer: 'نعم، خاصية كشف الحركة تقوم بتفعيل التسجيل تلقائياً عند استشعار أي حركة حول مركبتك المتوقفة، ما يساعد على الحماية من التخريب أو السرقة أو حوادث الاصطدام أثناء الوقوف. يمكن تشغيل الكاميرا على بطارية السيارة أو بطارية خارجية اختيارية.'
   },
   {
-    question: 'What\'s covered under the 2-year warranty?',
-    answer: 'Our comprehensive 2-year warranty covers all manufacturing defects, hardware malfunctions, and component failures. This includes the camera unit, SD card, cables, and mounting accessories. We also provide free repair or replacement service and dedicated customer support throughout the warranty period.'
+    question: 'ماذا يشمل ضمان السنتين؟',
+    answer: 'ضمان السنتين الشامل يغطي جميع عيوب التصنيع والأعطال في المكونات بما في ذلك وحدة الكاميرا والبطاقة والكابلات وملحقات التثبيت. كما نوفر خدمة إصلاح أو استبدال مجانية ودعم فني مخصص طوال فترة الضمان.'
   },
   {
-    question: 'How clear is the night vision recording?',
-    answer: 'The advanced night vision technology uses superior low-light sensors and image processing to deliver crystal-clear footage even in complete darkness. The camera automatically adjusts exposure and enhances contrast to capture license plates, road signs, and important details that other dash cams miss.'
+    question: 'ما مدى وضوح التصوير الليلي؟',
+    answer: 'تعتمد تقنية الرؤية الليلية المتقدمة على حساسات ومعالجة صور توفر لقطات واضحة تماماً حتى في الظلام الدامس. تعدل الكاميرا التعرض وتعزز التباين لالتقاط اللوحات وإشارات الطريق والتفاصيل المهمة التي تفوتها الكاميرات الأخرى.'
   },
   {
-    question: 'Can I view footage on my phone?',
-    answer: 'Yes, the dash cam features Wi-Fi connectivity that allows you to connect to our mobile app. You can view live footage, download recordings, adjust settings, and manage storage directly from your smartphone. The app is available for both iOS and Android devices.'
+    question: 'هل يمكنني مشاهدة المقاطع على هاتفي؟',
+    answer: 'نعم، تدعم الكاميرا الاتصال عبر الواي فاي لتتمكن من الربط بتطبيق الجوال ومشاهدة البث المباشر أو تحميل المقاطع وضبط الإعدادات وإدارة التخزين مباشرة من هاتفك. التطبيق متوفر لأجهزة iOS وأندرويد.'
   },
   {
-    question: 'What happens if I need customer support?',
-    answer: 'We provide 24/7 customer support through WhatsApp, email, and phone. Our technical team can help with installation questions, troubleshooting, warranty claims, and any other concerns. We also offer remote assistance and detailed video tutorials for common questions.'
+    question: 'ماذا لو احتجت إلى دعم فني؟',
+    answer: 'نقدم دعماً فنياً على مدار الساعة عبر واتساب والبريد الإلكتروني والهاتف. يمكن لفريقنا مساعدتك في التركيب أو حل المشاكل أو طلبات الضمان وغيرها، كما نوفر إرشادات بالفيديو للمسائل الشائعة.'
   },
   {
-    question: 'Is the dash cam compatible with all vehicles?',
-    answer: 'Yes, the dash cam is designed to work with all vehicle types including cars, trucks, motorcycles, and commercial vehicles. The universal mounting system and adjustable bracket ensure a perfect fit regardless of your windshield angle or dashboard configuration.'
+    question: 'هل الكاميرا متوافقة مع جميع المركبات؟',
+    answer: 'نعم، تم تصميم الكاميرا للعمل مع مختلف أنواع المركبات بما فيها السيارات والشاحنات والدراجات النارية والمركبات التجارية. يضمن نظام التثبيت الشامل والحامل القابل للتعديل ملاءمة مثالية لأي زاوية زجاج أمامي أو تصميم لوحة قيادة.'
   }
 ]
 
@@ -78,10 +78,10 @@ export default function FAQ() {
             <HelpCircle className="w-8 h-8 text-[#007BFF]" />
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Frequently Asked <span className="text-[#007BFF]">Questions</span>
+            <span className="text-[#007BFF]">الأسئلة</span> الشائعة
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Get answers to the most common questions about our premium dash cam. Can't find what you're looking for? Contact our support team.
+            اطلع على إجابات أكثر الأسئلة شيوعاً حول كاميرا الداش الاحترافية. إذا لم تجد ما تبحث عنه، تواصل مع فريق الدعم.
           </p>
         </div>
 
@@ -129,10 +129,10 @@ export default function FAQ() {
         <div className="text-center mt-16">
           <div className="bg-[#1a1a1a] rounded-2xl p-8 border border-gray-800">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Still have questions?
+              ما زالت لديك أسئلة؟
             </h3>
             <p className="text-gray-300 mb-6">
-              Our expert support team is here to help you 24/7. Get instant answers via WhatsApp or email.
+              فريق الدعم المتخصص جاهز لمساعدتك على مدار الساعة. احصل على إجابات فورية عبر واتساب أو البريد الإلكتروني.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -141,13 +141,13 @@ export default function FAQ() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-6 py-3 bg-[#25D366] hover:bg-[#1ea952] text-white rounded-lg transition-colors duration-300"
               >
-                WhatsApp Support
+                دعم واتساب
               </a>
               <a
                 href="mailto:wafaiealaa@gmail.com"
                 className="inline-flex items-center justify-center px-6 py-3 bg-[#007BFF] hover:bg-[#0056b3] text-white rounded-lg transition-colors duration-300"
               >
-                Email Support
+                دعم عبر البريد
               </a>
             </div>
           </div>

@@ -4,9 +4,9 @@ import './globals.css'
 import { ThemeProvider } from '@/components/theme-provider'
 
 export const metadata: Metadata = {
-  title: 'Dash-Sham | Premium Dash Cam - Capture Every Detail, Every Drive',
-  description: 'Premium 4K Ultra HD Dash Cam with 170° Wide Angle Lens, Night Vision, Motion Detection. Professional car dashboard camera for ultimate security and evidence.',
-  keywords: 'dash cam, car camera, 4K dash cam, night vision, motion detection, car security, dashboard camera',
+  title: 'داش شام | كاميرا داش احترافية لتوثيق كل لحظة',
+  description: 'كاميرا داش بدقة 4K وعدسة واسعة 170° ورؤية ليلية وكشف حركة، لأقصى درجات الأمان والتوثيق.',
+  keywords: 'كاميرا داش, تصوير 4K, رؤية ليلية, كشف حركة, أمان السيارة',
 }
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="dark">
+    <html lang="ar" dir="rtl" className="dark">
       <body className="min-h-screen bg-[#0d0d0d] text-white">
         <ThemeProvider
           attribute="class"

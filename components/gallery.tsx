@@ -11,49 +11,49 @@ const galleryItems = [
     type: 'image',
     src: 'https://cdn.abacus.ai/images/d393902a-6e9c-48a3-805a-ba9c3a3a8c63.png',
     alt: 'Professional product shot of Dash-Sham dash cam',
-    title: 'Premium Design'
+    title: 'تصميم فاخر'
   },
   {
     type: 'image',
     src: 'https://cdn.abacus.ai/images/6cef56f7-322b-482b-b21d-47d9ee6837d5.png',
     alt: 'Front view of dash cam showing LED indicators',
-    title: 'Front View'
+    title: 'الواجهة الأمامية'
   },
   {
     type: 'image',
     src: 'https://cdn.abacus.ai/images/eda6c499-fdc1-490f-824f-89c50e5daa32.png',
     alt: 'Side view showing sleek profile',
-    title: 'Side Profile'
+    title: 'الجانب الجانبي'
   },
   {
     type: 'image',
     src: 'https://cdn.abacus.ai/images/5a9e3078-6048-48c2-8659-9207837ec0ae.png',
     alt: 'Back view showing ports and connections',
-    title: 'Back Panel'
+    title: 'الجهة الخلفية'
   },
   {
     type: 'image',
     src: 'https://cdn.abacus.ai/images/ddd1d345-1b91-4ea8-840f-ad8f22308ffe.png',
     alt: '4K video recording interface display',
-    title: '4K Recording'
+    title: 'تسجيل 4K'
   },
   {
     type: 'image',
     src: 'http://www.vantrue.com/cdn/shop/articles/1920_1080-1.jpg?v=1682329592',
     alt: 'Night vision sample footage',
-    title: 'Night Vision Sample'
+    title: 'عينة للرؤية الليلية'
   },
   {
     type: 'image',
     src: 'https://sc04.alicdn.com/kf/H4ef9f63968804a47bfaffbb833a9541eJ.jpg',
     alt: 'Wide angle view sample',
-    title: '170° Wide Angle Sample'
+    title: 'عينة زاوية 170°'
   },
   {
     type: 'image',
     src: 'https://cdn.abacus.ai/images/eff6dd2e-213d-45b5-9346-efec8f7df30e.png',
     alt: 'Installation process',
-    title: 'Easy Installation'
+    title: 'تركيب سهل'
   }
 ]
 
@@ -87,10 +87,10 @@ export default function Gallery() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Product <span className="text-[#007BFF]">Gallery</span>
+            معرض <span className="text-[#007BFF]">المنتج</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Explore every angle and see the superior quality that sets Dash-Sham apart from the competition.
+            اكتشف كل زاوية وشاهد الجودة الفائقة التي تميز داش شام عن المنافسين.
           </p>
         </div>
 
@@ -111,7 +111,7 @@ export default function Gallery() {
               <div className="absolute bottom-4 left-4 right-4 flex justify-between items-center">
                 <div className="text-white">
                   <h3 className="text-lg font-semibold">{currentItem.title}</h3>
-                  <p className="text-gray-300 text-sm">{currentIndex + 1} of {galleryItems.length}</p>
+                  <p className="text-gray-300 text-sm">{currentIndex + 1} من {galleryItems.length}</p>
                 </div>
                 
                 <div className="flex items-center space-x-2">
@@ -182,19 +182,19 @@ export default function Gallery() {
         <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="text-center p-6 bg-[#0d0d0d] rounded-xl border border-gray-800">
             <div className="text-2xl font-bold text-[#007BFF] mb-2">4K</div>
-            <div className="text-gray-400">Ultra HD Recording</div>
+            <div className="text-gray-400">تسجيل فائق الدقة</div>
           </div>
           <div className="text-center p-6 bg-[#0d0d0d] rounded-xl border border-gray-800">
             <div className="text-2xl font-bold text-[#007BFF] mb-2">170°</div>
-            <div className="text-gray-400">Wide Angle View</div>
+            <div className="text-gray-400">زاوية رؤية عريضة</div>
           </div>
           <div className="text-center p-6 bg-[#0d0d0d] rounded-xl border border-gray-800">
             <div className="text-2xl font-bold text-[#007BFF] mb-2">24/7</div>
-            <div className="text-gray-400">Continuous Recording</div>
+            <div className="text-gray-400">تسجيل متواصل</div>
           </div>
           <div className="text-center p-6 bg-[#0d0d0d] rounded-xl border border-gray-800">
             <div className="text-2xl font-bold text-[#007BFF] mb-2">128GB</div>
-            <div className="text-gray-400">Max Storage Support</div>
+            <div className="text-gray-400">دعم تخزين حتى 128 جيجا</div>
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ const reviews = [
     name: 'Ahmed Al-Rashid',
     location: 'Riyadh, Saudi Arabia',
     rating: 5,
-    review: 'Outstanding quality! The 4K recording is incredibly clear, and the night vision saved me during a recent incident. Best investment for my car.',
+    review: 'جودة مذهلة! تسجيل 4K واضح للغاية، والرؤية الليلية أنقذتني في حادثة مؤخراً. أفضل استثمار لسيارتي.',
     date: 'December 2024',
     verified: true
   },
@@ -17,7 +17,7 @@ const reviews = [
     name: 'Sarah Thompson',
     location: 'Dubai, UAE',
     rating: 5,
-    review: 'The wide-angle lens captures everything perfectly. Installation was straightforward, and the motion detection gives me peace of mind when parked.',
+    review: 'العدسة الواسعة تلتقط كل شيء بدقة. التركيب كان سهلاً، وكشف الحركة يمنحني راحة بال عند إيقاف السيارة.',
     date: 'November 2024',
     verified: true
   },
@@ -25,7 +25,7 @@ const reviews = [
     name: 'Omar Hassan',
     location: 'Cairo, Egypt',
     rating: 5,
-    review: 'Professional grade quality at an amazing price. The loop recording feature works flawlessly, and customer support was exceptional.',
+    review: 'جودة بمستوى احترافي بسعر رائع. ميزة التسجيل الحلقي تعمل بدون أي خلل، والدعم الفني متميز.',
     date: 'November 2024',
     verified: true
   },
@@ -33,7 +33,7 @@ const reviews = [
     name: 'Jennifer Park',
     location: 'Seoul, South Korea',
     rating: 5,
-    review: 'Exceeded my expectations in every way. The build quality is premium, and the 32GB SD card included was a nice touch. Highly recommend!',
+    review: 'فاق التوقعات من جميع النواحي. جودة التصنيع ممتازة، وبطاقة الذاكرة 32 جيجا المرفقة إضافة رائعة. أوصي به بشدة!',
     date: 'October 2024',
     verified: true
   },
@@ -41,7 +41,7 @@ const reviews = [
     name: 'Mohammed Al-Zahra',
     location: 'Jeddah, Saudi Arabia',
     rating: 5,
-    review: 'The parking surveillance mode is genius! Caught someone trying to break into my car. This dash cam literally paid for itself.',
+    review: 'وضع مراقبة الوقوف عبقري! تمكّنت من ضبط شخص حاول سرقة سيارتي. هذه الكاميرا سدّدت ثمنها بنفسها.',
     date: 'October 2024',
     verified: true
   }
@@ -86,10 +86,10 @@ export default function Reviews() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Customer <span className="text-[#007BFF]">Reviews</span>
+            آراء <span className="text-[#007BFF]">العملاء</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-            Don't just take our word for it. See what our satisfied customers have to say about their Dash-Sham experience.
+            لا تعتمد على كلامنا فحسب، تعرف على تجارب عملائنا الراضين مع داش شام.
           </p>
           
           {/* Overall Rating Display */}
@@ -99,11 +99,11 @@ export default function Reviews() {
               <div className="flex justify-center mb-2">
                 {renderStars(5)}
               </div>
-              <div className="text-gray-400 text-sm">Overall Rating</div>
+              <div className="text-gray-400 text-sm">التقييم الكلي</div>
             </div>
             <div className="text-center">
               <div className="text-2xl font-bold text-white mb-2">10,000+</div>
-              <div className="text-gray-400 text-sm">Happy Customers</div>
+              <div className="text-gray-400 text-sm">عملاء راضون</div>
             </div>
           </div>
         </div>
@@ -128,7 +128,7 @@ export default function Reviews() {
                   <Quote className="w-8 h-8 text-[#007BFF] opacity-50 group-hover:opacity-100 transition-opacity duration-300" />
                   {review.verified && (
                     <div className="bg-green-500/20 text-green-400 text-xs px-2 py-1 rounded-full border border-green-500/30">
-                      ✓ Verified Purchase
+                      ✓ عملية شراء موثّقة
                     </div>
                   )}
                 </div>
@@ -165,7 +165,7 @@ export default function Reviews() {
         {/* Bottom CTA */}
         <div className="text-center mt-16">
           <div className="inline-flex items-center px-6 py-3 bg-[#007BFF]/10 border border-[#007BFF]/30 rounded-full text-[#007BFF] text-lg font-medium">
-            ⭐ Join 10,000+ satisfied customers today
+            ⭐ انضم إلى أكثر من 10,000 عميل راضٍ اليوم
           </div>
         </div>
       </div>

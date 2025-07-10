@@ -27,16 +27,16 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             <button onClick={() => scrollToSection('features')} className="text-gray-300 hover:text-[#007BFF] transition-colors">
-              Features
+              المميزات
             </button>
             <button onClick={() => scrollToSection('gallery')} className="text-gray-300 hover:text-[#007BFF] transition-colors">
-              Gallery
+              المعرض
             </button>
             <button onClick={() => scrollToSection('reviews')} className="text-gray-300 hover:text-[#007BFF] transition-colors">
-              Reviews
+              التقييمات
             </button>
             <button onClick={() => scrollToSection('faq')} className="text-gray-300 hover:text-[#007BFF] transition-colors">
-              FAQ
+              الأسئلة الشائعة
             </button>
           </nav>
 
@@ -47,7 +47,7 @@ export default function Header() {
               className="bg-[#007BFF] hover:bg-[#0056b3] text-white px-6 py-2 rounded-lg shadow-glow-hover transition-all duration-300"
             >
               <ShoppingCart className="w-4 h-4 mr-2" />
-              Buy Now
+              اشترِ الآن
             </Button>
           </div>
 
@@ -67,23 +67,23 @@ export default function Header() {
           <div className="md:hidden bg-black/90 rounded-lg mt-2 p-4">
             <nav className="flex flex-col space-y-4">
               <button onClick={() => scrollToSection('features')} className="text-gray-300 hover:text-[#007BFF] transition-colors text-left">
-                Features
+                المميزات
               </button>
               <button onClick={() => scrollToSection('gallery')} className="text-gray-300 hover:text-[#007BFF] transition-colors text-left">
-                Gallery
+                المعرض
               </button>
               <button onClick={() => scrollToSection('reviews')} className="text-gray-300 hover:text-[#007BFF] transition-colors text-left">
-                Reviews
+                التقييمات
               </button>
               <button onClick={() => scrollToSection('faq')} className="text-gray-300 hover:text-[#007BFF] transition-colors text-left">
-                FAQ
+                الأسئلة الشائعة
               </button>
-              <Button 
+              <Button
                 onClick={() => scrollToSection('pricing')}
                 className="bg-[#007BFF] hover:bg-[#0056b3] text-white px-6 py-2 rounded-lg w-full"
               >
                 <ShoppingCart className="w-4 h-4 mr-2" />
-                Buy Now
+                اشترِ الآن
               </Button>
             </nav>
           </div>

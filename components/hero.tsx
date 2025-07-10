@@ -38,34 +38,34 @@ export default function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center px-4 py-2 bg-[#007BFF]/20 border border-[#007BFF]/30 rounded-full text-[#007BFF] text-sm font-medium mb-8">
             <Shield className="w-4 h-4 mr-2" />
-            Professional Grade Security
+            أمان بمستوى احترافي
           </div>
 
           {/* Main Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Capture Every Detail,<br />
-            <span className="text-[#007BFF]">Every Drive</span>
+            التقط كل التفاصيل،<br />
+            <span className="text-[#007BFF]">في كل رحلة</span>
           </h1>
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Premium 4K Ultra HD Dash Cam with advanced night vision and 170° wide-angle lens. 
-            Your ultimate driving companion for security and peace of mind.
+            كاميرا داش احترافية بدقة 4K ورؤية ليلية متقدمة وعدسة بزاوية 170°.
+            رفيقك المثالي للقيادة من أجل الأمان وراحة البال.
           </p>
 
           {/* Features Pills */}
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             <div className="bg-black/40 backdrop-blur-sm border border-gray-700 rounded-full px-4 py-2 flex items-center">
               <Camera className="w-4 h-4 text-[#007BFF] mr-2" />
-              <span className="text-white text-sm">4K Ultra HD</span>
+              <span className="text-white text-sm">دقة 4K فائقة</span>
             </div>
             <div className="bg-black/40 backdrop-blur-sm border border-gray-700 rounded-full px-4 py-2 flex items-center">
               <Shield className="w-4 h-4 text-[#007BFF] mr-2" />
-              <span className="text-white text-sm">Night Vision</span>
+              <span className="text-white text-sm">رؤية ليلية</span>
             </div>
             <div className="bg-black/40 backdrop-blur-sm border border-gray-700 rounded-full px-4 py-2 flex items-center">
               <Play className="w-4 h-4 text-[#007BFF] mr-2" />
-              <span className="text-white text-sm">Loop Recording</span>
+              <span className="text-white text-sm">تسجيل حلقي</span>
             </div>
           </div>
 
@@ -75,7 +75,7 @@ export default function Hero() {
               onClick={scrollToPricing}
               className="bg-[#007BFF] hover:bg-[#0056b3] text-white px-8 py-4 text-lg rounded-lg shadow-glow-hover transition-all duration-300 transform hover:scale-105"
             >
-              Order Now - Save 33%
+              اطلب الآن ووفّر 33%
             </Button>
             <Button 
               variant="outline"
@@ -83,7 +83,7 @@ export default function Hero() {
               className="border-gray-600 text-white hover:bg-white/10 px-8 py-4 text-lg rounded-lg transition-all duration-300"
             >
               <Play className="w-5 h-5 mr-2" />
-              Watch Demo
+              مشاهدة العرض
             </Button>
           </div>
 
@@ -91,17 +91,17 @@ export default function Hero() {
           <div className="mt-16 flex flex-wrap justify-center items-center gap-8 text-gray-400">
             <div className="flex items-center">
               <span className="text-2xl font-bold text-[#007BFF] mr-2">4.8</span>
-              <span>★★★★★ Rating</span>
+              <span>تقييم ★★★★★</span>
             </div>
             <div className="w-px h-6 bg-gray-600 hidden sm:block" />
             <div>
               <span className="text-2xl font-bold text-[#007BFF] mr-2">10,000+</span>
-              <span>Happy Customers</span>
+              <span>عملاء راضون</span>
             </div>
             <div className="w-px h-6 bg-gray-600 hidden sm:block" />
             <div>
               <span className="text-2xl font-bold text-[#007BFF] mr-2">2 Year</span>
-              <span>Warranty</span>
+              <span>ضمان</span>
             </div>
           </div>
         </div>

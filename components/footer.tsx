@@ -15,7 +15,7 @@ export default function Footer() {
               Dash<span className="text-[#007BFF]">-Sham</span>
             </h3>
             <p className="text-gray-300 mb-6 max-w-md">
-              Premium automotive technology solutions. Capture every detail, every drive with our professional-grade 4K dash cameras designed for the modern driver.
+              حلول تقنية متقدمة للسيارات. سجّل كل لحظة في كل رحلة مع كاميرات داش شام الاحترافية بدقة 4K.
             </p>
             
             {/* Contact Info */}
@@ -34,33 +34,33 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-[#007BFF]" />
-                <span className="text-gray-300">Saudi Arabia</span>
+                <span className="text-gray-300">المملكة العربية السعودية</span>
               </div>
             </div>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
+            <h4 className="text-lg font-semibold text-white mb-4">روابط سريعة</h4>
             <ul className="space-y-2">
               <li>
                 <button onClick={() => document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' })} className="text-gray-300 hover:text-[#007BFF] transition-colors">
-                  Features
+                  المميزات
                 </button>
               </li>
               <li>
                 <button onClick={() => document.getElementById('gallery')?.scrollIntoView({ behavior: 'smooth' })} className="text-gray-300 hover:text-[#007BFF] transition-colors">
-                  Gallery
+                  المعرض
                 </button>
               </li>
               <li>
                 <button onClick={() => document.getElementById('reviews')?.scrollIntoView({ behavior: 'smooth' })} className="text-gray-300 hover:text-[#007BFF] transition-colors">
-                  Reviews
+                  التقييمات
                 </button>
               </li>
               <li>
                 <button onClick={() => document.getElementById('faq')?.scrollIntoView({ behavior: 'smooth' })} className="text-gray-300 hover:text-[#007BFF] transition-colors">
-                  FAQ
+                  الأسئلة الشائعة
                 </button>
               </li>
             </ul>
@@ -68,21 +68,21 @@ export default function Footer() {
 
           {/* Policies */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Policies</h4>
+            <h4 className="text-lg font-semibold text-white mb-4">السياسات</h4>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-gray-300 hover:text-[#007BFF] transition-colors">
-                  Privacy Policy
+                  سياسة الخصوصية
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-[#007BFF] transition-colors">
-                  Return Policy
+                  سياسة الاسترجاع
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-[#007BFF] transition-colors">
-                  Warranty Terms
+                  شروط الضمان
                 </a>
               </li>
             </ul>
@@ -95,22 +95,22 @@ export default function Footer() {
             <div className="flex items-center space-x-3">
               <Shield className="w-6 h-6 text-[#007BFF]" />
               <div>
-                <div className="text-white font-semibold">2-Year Warranty</div>
-                <div className="text-gray-400 text-sm">Full protection coverage</div>
+                <div className="text-white font-semibold">ضمان لمدة سنتين</div>
+                <div className="text-gray-400 text-sm">حماية كاملة</div>
               </div>
             </div>
             <div className="flex items-center space-x-3">
               <RotateCcw className="w-6 h-6 text-[#007BFF]" />
               <div>
-                <div className="text-white font-semibold">30-Day Returns</div>
-                <div className="text-gray-400 text-sm">Money back guarantee</div>
+                <div className="text-white font-semibold">إرجاع خلال 30 يوماً</div>
+                <div className="text-gray-400 text-sm">ضمان استرجاع المبلغ</div>
               </div>
             </div>
             <div className="flex items-center space-x-3">
               <CreditCard className="w-6 h-6 text-[#007BFF]" />
               <div>
-                <div className="text-white font-semibold">Secure Payments</div>
-                <div className="text-gray-400 text-sm">Multiple payment options</div>
+                <div className="text-white font-semibold">مدفوعات آمنة</div>
+                <div className="text-gray-400 text-sm">خيارات دفع متعددة</div>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@ export default function Footer() {
 
         {/* Payment Methods */}
         <div className="border-t border-gray-800 pt-8 mb-8">
-          <h4 className="text-lg font-semibold text-white mb-4 text-center">Accepted Payment Methods</h4>
+          <h4 className="text-lg font-semibold text-white mb-4 text-center">طرق الدفع المتاحة</h4>
           <div className="flex justify-center space-x-6">
             <div className="bg-[#1a1a1a] rounded-lg px-4 py-2 border border-gray-700">
               <span className="text-white font-semibold">VISA</span>
@@ -135,7 +135,7 @@ export default function Footer() {
         {/* Bottom Footer */}
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 Dash-Sham. All rights reserved. Professional automotive technology solutions.
+            © 2024 داش شام. جميع الحقوق محفوظة. حلول تقنية احترافية للسيارات.
           </p>
         </div>
       </div>
