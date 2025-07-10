@@ -33,7 +33,7 @@ export default function FloatingElements() {
   }
 
   const openWhatsApp = () => {
-    const message = encodeURIComponent('Hi Dash-Sham! I\'m interested in your 4K dash cam. Can you provide more information?')
+    const message = encodeURIComponent('مرحباً داش شام! أود معرفة المزيد عن كاميرا الداش بدقة 4K.')
     window.open(`https://wa.me/966553377408?text=${message}`, '_blank')
   }
 
@@ -58,7 +58,7 @@ export default function FloatingElements() {
             className="bg-[#007BFF] hover:bg-[#0056b3] text-white px-8 py-3 rounded-full shadow-glow-hover transition-all duration-300 transform hover:scale-105"
           >
             <ShoppingCart className="w-5 h-5 mr-2" />
-            Buy Now - Save 33%
+            اشترِ الآن ووفر 33%
           </Button>
         </div>
       )}
@@ -76,19 +76,7 @@ export default function FloatingElements() {
         </div>
       )}
 
-      {/* Language Toggle (Future Enhancement) */}
-      <div className="fixed top-20 right-6 z-40">
-        <div className="bg-black/50 backdrop-blur-sm border border-gray-700 rounded-lg p-2">
-          <div className="flex space-x-2">
-            <button className="text-[#007BFF] font-semibold px-2 py-1 rounded bg-[#007BFF]/20">
-              EN
-            </button>
-            <button className="text-gray-400 hover:text-white px-2 py-1 rounded transition-colors">
-              العربية
-            </button>
-          </div>
-        </div>
-      </div>
+      {/* Language Toggle removed */}
     </>
   )
 }

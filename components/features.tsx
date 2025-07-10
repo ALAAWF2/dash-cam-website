@@ -7,38 +7,38 @@ import { Camera, Eye, Zap, RotateCcw, HardDrive, Shield } from 'lucide-react'
 const features = [
   {
     icon: Camera,
-    title: '4K Ultra HD Video',
-    description: 'Crystal clear 4K resolution captures every detail with stunning clarity and precision.',
+    title: 'فيديو فائق الدقة 4K',
+    description: 'دقة 4K فائقة الوضوح تلتقط أدق التفاصيل بوضوح واحترافية مذهلة.',
     color: 'text-blue-400'
   },
   {
     icon: Eye,
-    title: '170° Wide Angle Lens',
-    description: 'Ultra-wide viewing angle covers multiple lanes for comprehensive road coverage.',
+    title: 'عدسة بزاوية عريضة 170°',
+    description: 'زاوية الرؤية العريضة تغطي عدة مسارات لضمان مراقبة شاملة للطريق.',
     color: 'text-purple-400'
   },
   {
     icon: Shield,
-    title: 'Advanced Night Vision',
-    description: 'Superior low-light performance ensures clear recording even in complete darkness.',
+    title: 'رؤية ليلية متقدمة',
+    description: 'أداء عالي في الإضاءة المنخفضة يضمن تسجيلًا واضحًا حتى في الظلام الدامس.',
     color: 'text-green-400'
   },
   {
     icon: Zap,
-    title: 'Motion Detection',
-    description: 'Intelligent motion sensor automatically starts recording when movement is detected.',
+    title: 'كشف الحركة',
+    description: 'حساس حركة ذكي يبدأ التسجيل تلقائيًا عند اكتشاف أي حركة.',
     color: 'text-yellow-400'
   },
   {
     icon: RotateCcw,
-    title: 'Loop Recording',
-    description: 'Seamless loop recording overwrites old files automatically, never missing a moment.',
+    title: 'تسجيل حلقي',
+    description: 'التسجيل الحلقي المتواصل يستبدل الملفات القديمة تلقائيًا دون فقدان أي لحظة.',
     color: 'text-red-400'
   },
   {
     icon: HardDrive,
-    title: '32GB SD Card Included',
-    description: 'Premium SD card included, supports up to 128GB for extended recording time.',
+    title: 'بطاقة ذاكرة 32 جيجا مضمنة',
+    description: 'تأتي مع بطاقة ذاكرة عالية الجودة تدعم حتى 128 جيجا لتسجيل طويل المدى.',
     color: 'text-cyan-400'
   }
 ]
@@ -73,10 +73,10 @@ export default function Features() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Premium <span className="text-[#007BFF]">Features</span>
+            <span className="text-[#007BFF]">مزايا</span> احترافية
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Every feature engineered for excellence. Experience the difference professional-grade technology makes.
+            كل ميزة مصممة بعناية لتحقيق أعلى أداء. استمتع بتقنية احترافية تحدث فرقًا في كل رحلة.
           </p>
         </div>
 
@@ -120,7 +120,7 @@ export default function Features() {
         {/* Bottom CTA */}
         <div className="text-center mt-16">
           <div className="inline-flex items-center px-6 py-3 bg-[#007BFF]/10 border border-[#007BFF]/30 rounded-full text-[#007BFF] text-lg font-medium">
-            ✨ All features included in every Dash-Sham camera
+            ✨ جميع المزايا متوفرة في كل كاميرا داش شام
           </div>
         </div>
       </div>
